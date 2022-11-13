@@ -1,0 +1,522 @@
+@charset "UTF-8";
+/* line 30, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+h2 {
+  color: #1b8c40;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+/* line 35, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 37, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.header {
+  position: relative;
+  background-color: #f69a24;
+  z-index: 2;
+}
+
+/* line 41, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.header img {
+  margin-top: 3px;
+}
+
+/* line 43, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 46, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.nav_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+
+/* line 59, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.nav_item a {
+  color: #000000;
+}
+
+/* line 61, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.nav_item:hover {
+  width: 130px;
+  height: 35px;
+}
+
+/* line 65, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.promo {
+  position: relative;
+  min-height: 700px;
+  margin-top: -1px;
+  background-color: #f69a24;
+  z-index: 1;
+}
+
+/* line 71, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.promo img {
+  position: absolute;
+  transform: translate(10%, 0%);
+}
+
+/* line 74, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.promo h1 {
+  position: relative;
+  font-family: Playfair display;
+  font-size: 127px;
+  font-weight: 700;
+  margin-top: 90px;
+  color: #1b8c40;
+  line-height: 95px;
+}
+
+/* line 82, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.promo_text {
+  position: relative;
+  margin-top: 35px;
+  font-size: 30px;
+  line-height: 32px;
+}
+
+/* line 87, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.promo_btn {
+  position: relative;
+  margin-top: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 500;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/* line 101, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.promo_btn:hover {
+  background: #1b8c40;
+}
+
+/* line 103, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.sub_promo {
+  margin: -20px 80px 0 80px;
+  padding: 30px 0 30px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: -3px -3px 9px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+}
+
+/* line 107, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.sub_promo_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-item: center;
+}
+
+/* line 112, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.sub_promo_item img {
+  padding: 0 60px 0 60px;
+  height: 123px;
+}
+
+/* line 115, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.sub_promo_item_text {
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+/* line 118, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy {
+  position: relative;
+  padding: 81px 0;
+}
+
+/* line 122, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_header_round {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: #b2e35c;
+  border-radius: 100%;
+  transform: translate(58%, 42%);
+}
+
+/* line 129, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_header h2 {
+  position: absolute;
+  transform: translate(79%, 34%);
+}
+
+/* line 132, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* line 137, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_item {
+  margin: 5px 5px;
+  padding: 10px;
+  width: 424px;
+  height: 139px;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+/* line 144, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_item_1 {
+  display: flex;
+  padding-left: 130px;
+  align-items: end;
+  text-align: right;
+  background-color: #f1ece6;
+}
+
+/* line 150, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_item_2 {
+  display: flex;
+  padding-right: 130px;
+  align-items: end;
+  text-align: left;
+  background-color: #eafec6;
+}
+
+/* line 156, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_item_3 {
+  display: flex;
+  padding-left: 130px;
+  align-items: start;
+  text-align: right;
+  background-color: #b2e35c;
+}
+
+/* line 162, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.easy_item_4 {
+  display: flex;
+  padding-right: 130px;
+  align-items: start;
+  text-align: left;
+  background-color: #f1ece6;
+}
+
+/* line 168, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.area {
+  margin: -20px 80px 0 80px;
+  padding: 30px 0 30px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: -3px -3px 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* line 170, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.area_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-item: center;
+}
+
+/* line 175, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.area_item img {
+  padding: 0 60px 0 60px;
+  height: 123px;
+}
+
+/* line 178, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.area_item_text {
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+/* line 181, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.tasks {
+  position: relative;
+}
+
+/* line 184, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.tasks_header h2 {
+  position: absolute;
+  transform: translate(79%, 162%);
+}
+
+/* line 187, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.tasks_block {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* line 194, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.tasks_item_round {
+  position: absolute;
+  height: 67px;
+  width: 67px;
+  border-radius: 100%;
+  background-color: #b2e35c;
+  z-index: -1;
+}
+
+/* line 201, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.tasks_item_text {
+  margin: 5px 5px;
+  padding: 0 106px 0 10px;
+  width: 325px;
+  height: 139px;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+/* line 208, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes {
+  margin: 30px auto 30px auto;
+  padding: 30px 0 30px 0;
+}
+
+/* line 211, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes h2 {
+  text-align: center;
+}
+
+/* line 213, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 217, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item video {
+  width: 400px;
+  height: 300px;
+}
+
+/* line 220, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 40px;
+  padding: 5px;
+  width: 258px;
+  height: 258px;
+  background: url(../img/free.jpg) center center/cover no-repeat;
+}
+
+/* line 230, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order_line {
+  margin-bottom: 5px;
+  width: 90px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+/* line 235, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order_main_text {
+  padding-left: 72px;
+  text-align: end;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 21px;
+}
+
+/* line 241, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order_free_text {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+/* line 246, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order_email {
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* line 249, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order_email .resize {
+  width: 100%;
+  border-radius: 20px;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* line 254, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order_email button {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 260, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.detailes_item_order_email button:hover {
+  background-color: pink;
+}
+
+/* line 263, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.partners {
+  margin: 30px auto 30px auto;
+  padding: 30px 0 30px 0;
+}
+
+/* line 266, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.partners h2 {
+  position: absolute;
+  transform: translate(79%, 115%);
+}
+
+/* line 269, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.partners_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 274, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.partners_item {
+  margin: 15px 25px;
+}
+
+/* line 276, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment {
+  min-height: 500px;
+  margin-top: 80px;
+  padding: 100px 20px;
+  background-color: #f69a24;
+}
+
+/* line 281, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 285, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_header {
+  position: relative;
+  margin: -20px 80px 0 80px;
+  padding: 30px 0 30px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: -3px -3px 9px 5px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin: 0;
+}
+
+/* line 290, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_header_round {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: #b2e35c;
+  border-radius: 100%;
+  transform: translate(-50%, -55%);
+  z-index: -1;
+}
+
+/* line 298, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_block {
+  margin: -20px 80px 0 80px;
+  padding: 30px 0 30px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: -3px -3px 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* line 300, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_block .photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 304, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_block .photo_round {
+  margin: 0 10px;
+}
+
+/* line 306, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_block .photo_round_icon {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background: url(../icons/photo_icon.png) center center/cover no-repeat;
+}
+
+/* line 311, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_block .comment_text {
+  margin: 20px;
+  text-align: center;
+  line-height: 18px;
+}
+
+/* line 315, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper_block .comment_company {
+  margin: 20px;
+  text-align: center;
+  line-height: 18px;
+  color: #1b8c40;
+  font-weight: 500;
+}
+
+/* line 321, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.comment_wrapper > div {
+  width: 40%;
+}
+
+/* line 323, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.footer {
+  min-height: 450px;
+  background-color: #000000;
+}
+
+/* line 326, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.footer_items {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 329, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.footer_items h3 {
+  margin: 30px 0;
+  color: #b2e35c;
+  text-align: start;
+  font-size: 25px;
+}
+
+/* line 334, ../../../OneDrive/Рабочий стол/beonmax_html_css_js/wps_10102022/src/sass/style.sass */
+.footer_items a {
+  display: block;
+  padding: 2px 2px 2px 0;
+  color: #bababa;
+  line-height: 15px;
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
